@@ -1,0 +1,11 @@
+CRITICAL - 2023-05-03 22:39:07 --> Undefined variable: wisatawan
+#0 D:\laragon\www\regresi\app\Views\wisatawan\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\regresi\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\regresi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\regresi\system\Common.php(1092): CodeIgniter\View\View->render('wisatawan/index', Array, true)
+#4 D:\laragon\www\regresi\app\Controllers\Wisatawan.php(14): view('wisatawan/index')
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Wisatawan->index()
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisatawan))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

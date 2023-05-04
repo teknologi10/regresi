@@ -1,0 +1,122 @@
+CRITICAL - 2023-04-16 12:01:25 --> Undefined index: temuan
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 210, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:30:53 --> Cell coordinate string can not be a range of cells.
+#0 D:\laragon\www\spod\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1277): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getWorksheetAndCoordinate('A1:B1')
+#1 D:\laragon\www\spod\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1170): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A1:B1')
+#2 D:\laragon\www\spod\app\Controllers\Temuan.php(214): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A1:B1', 'Nomor LHP dan T...')
+#3 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#4 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#5 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-16 12:34:42 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::mergeCellsValue()
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:34:54 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::mergeCellValue()
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:34:56 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::mergeCellValue()
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:39:11 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::Value()
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:39:53 --> CellRange array length must be 2 or 4
+#0 D:\laragon\www\spod\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1855): PhpOffice\PhpSpreadsheet\Worksheet\Validations::validateCellRange(Array)
+#1 D:\laragon\www\spod\app\Controllers\Temuan.php(214): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells(Array)
+#2 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#3 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#4 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-16 12:40:13 --> Merge must be on a valid range of cells.
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells(':')
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:40:15 --> Merge must be on a valid range of cells.
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells(':')
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:40:16 --> Merge must be on a valid range of cells.
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells(':')
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:44:46 --> Class 'App\Controllers\Worksheet' not found
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:45:01 --> Undefined property: PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::$Worksheet
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 214, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:45:03 --> Undefined property: PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::$Worksheet
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 214, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:45:16 --> Undefined property: PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::$MERGE_CELL_CONTENT_MERGE
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 214, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:45:38 --> Use of undefined constant MERGE_CELL_CONTENT_MERGE - assumed 'MERGE_CELL_CONTENT_MERGE' (this will throw an Error in a future version of PHP)
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\laragon\\www\\...', 214, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-16 12:48:08 --> Class 'App\Controllers\Worksheet' not found
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 12:48:09 --> Class 'App\Controllers\Worksheet' not found
+#0 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#2 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-16 21:16:28 --> Undefined index: rekomendasi
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 243, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

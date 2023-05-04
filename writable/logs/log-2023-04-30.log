@@ -1,0 +1,24 @@
+ERROR - 2023-04-30 22:53:00 --> Table 'spod.lhp' doesn't exist
+CRITICAL - 2023-04-30 22:53:00 --> Table 'spod.lhp' doesn't exist
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT sum(ra_p...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(ra_p...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(ra_p...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT sum(ra_p...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-30 22:55:52 --> Table 'spod.bagian' doesn't exist
+CRITICAL - 2023-04-30 22:55:52 --> Table 'spod.bagian' doesn't exist
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Admin.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Admin->edit_user('1')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

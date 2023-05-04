@@ -1,0 +1,78 @@
+ERROR - 2023-05-04 09:19:08 --> Unknown column 'periode' in 'field list'
+CRITICAL - 2023-05-04 09:19:08 --> Unknown column 'periode' in 'field list'
+#0 D:\laragon\www\regresi\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ev...')
+#1 D:\laragon\www\regresi\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 D:\laragon\www\regresi\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 D:\laragon\www\regresi\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 D:\laragon\www\regresi\app\Controllers\Event.php(25): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Event->tambah()
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-04 09:19:59 --> Undefined variable: wisatawan
+#0 D:\laragon\www\regresi\app\Views\event\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\regresi\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\regresi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\regresi\system\Common.php(1092): CodeIgniter\View\View->render('event/edit', Array, true)
+#4 D:\laragon\www\regresi\app\Controllers\Event.php(49): view('event/edit', Array)
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Event->edit('1')
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-04 09:21:50 --> Undefined variable: wisatawan
+#0 D:\laragon\www\regresi\app\Views\event\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\regresi\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\regresi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\regresi\system\Common.php(1092): CodeIgniter\View\View->render('event/edit', Array, true)
+#4 D:\laragon\www\regresi\app\Controllers\Event.php(49): view('event/edit', Array)
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Event->edit('1')
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-04 09:22:15 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-05-04 09:22:15 --> Unknown column 'id' in 'where clause'
+#0 D:\laragon\www\regresi\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `event` ...')
+#1 D:\laragon\www\regresi\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `event` ...')
+#2 D:\laragon\www\regresi\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `event` ...')
+#3 D:\laragon\www\regresi\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `event` ...', Array, false)
+#4 D:\laragon\www\regresi\app\Controllers\Event.php(44): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Event->edit('1')
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-04 09:22:32 --> Unknown column 'periode' in 'field list'
+CRITICAL - 2023-05-04 09:22:32 --> Unknown column 'periode' in 'field list'
+#0 D:\laragon\www\regresi\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `event` ...')
+#1 D:\laragon\www\regresi\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `event` ...')
+#2 D:\laragon\www\regresi\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `event` ...')
+#3 D:\laragon\www\regresi\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `event` ...', Array, false)
+#4 D:\laragon\www\regresi\app\Controllers\Event.php(44): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Event->edit('1')
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-04 11:27:41 --> syntax error, unexpected '?>'
+#0 D:\laragon\www\regresi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\regresi\system\Common.php(1092): CodeIgniter\View\View->render('peramalan/index', Array, true)
+#2 D:\laragon\www\regresi\app\Controllers\Peramalan.php(23): view('peramalan/index', Array)
+#3 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Peramalan->index()
+#4 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peramalan))
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-04 11:31:18 --> Undefined variable: x
+#0 D:\laragon\www\regresi\app\Views\peramalan\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 96, Array)
+#1 D:\laragon\www\regresi\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\regresi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\regresi\system\Common.php(1092): CodeIgniter\View\View->render('peramalan/index', Array, true)
+#4 D:\laragon\www\regresi\app\Controllers\Peramalan.php(25): view('peramalan/index', Array)
+#5 D:\laragon\www\regresi\system\CodeIgniter.php(802): App\Controllers\Peramalan->index()
+#6 D:\laragon\www\regresi\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peramalan))
+#7 D:\laragon\www\regresi\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\regresi\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

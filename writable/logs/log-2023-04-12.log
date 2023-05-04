@@ -1,0 +1,7 @@
+CRITICAL - 2023-04-12 11:17:36 --> Undefined variable: data
+#0 /var/www/html/spod/app/Controllers/Temuan.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->temuan_index()
+#2 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,108 @@
+ERROR - 2023-04-17 03:25:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-04-17 03:25:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\spod\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\laragon\www\spod\app\Controllers\Temuan.php(84): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->temuan('5')
+#4 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#5 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-17 05:12:03 --> Undefined index: key
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 243, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-17 09:42:15 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in D:\laragon\www\spod\app\Controllers\Temuan.php on line 126 and at least 2 expected
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(126): CodeIgniter\Database\BaseBuilder->join()
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-17 09:42:25 --> Unknown column 'id_temuan' in 'where clause'
+CRITICAL - 2023-04-17 09:42:25 --> Unknown column 'id_temuan' in 'where clause'
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nomor_l...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_l...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_l...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_l...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-17 09:44:32 --> Unknown column 'penyebab' in 'field list'
+CRITICAL - 2023-04-17 09:44:32 --> Unknown column 'penyebab' in 'field list'
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nomor_l...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_l...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_l...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_l...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-17 09:44:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2023-04-17 09:44:54 --> Column 'id' in where clause is ambiguous
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `nomor_l...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_l...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_l...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_l...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 09:54:07 --> Undefined index: id
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 172, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-17 09:57:09 --> Column 'id' in field list is ambiguous
+CRITICAL - 2023-04-17 09:57:09 --> Column 'id' in field list is ambiguous
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `id`, `n...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-17 10:07:39 --> Unknown column 'tgl_lhp temuan_detail.id' in 'field list'
+CRITICAL - 2023-04-17 10:07:39 --> Unknown column 'tgl_lhp temuan_detail.id' in 'field list'
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `temuan`...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `temuan`...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `temuan`...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `temuan`...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-17 10:27:43 --> Use of undefined constant VERTICAL_TOP - assumed 'VERTICAL_TOP' (this will throw an Error in a future version of PHP)
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\laragon\\www\\...', 171, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-17 13:53:47 --> Undefined variable: style
+#0 D:\laragon\www\spod\app\Controllers\Temuan.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 166, Array)
+#1 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->cetak()
+#2 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#3 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

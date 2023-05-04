@@ -1,0 +1,184 @@
+ERROR - 2023-01-25 13:23:24 --> Table 'spod.lhp' doesn't exist
+CRITICAL - 2023-01-25 13:23:24 --> Table 'spod.lhp' doesn't exist
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-25 14:09:34 --> Trying to access array offset on value of type null
+#0 /var/www/html/spod/app/Controllers/Temuan.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->temuan()
+#2 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-25 14:09:39 --> Trying to access array offset on value of type null
+#0 /var/www/html/spod/app/Controllers/Temuan.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->temuan()
+#2 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-25 14:09:43 --> Trying to access array offset on value of type null
+#0 /var/www/html/spod/app/Controllers/Temuan.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->temuan()
+#2 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-25 14:12:51 --> Undefined variable: data
+#0 /var/www/html/spod/app/Controllers/Temuan.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->temuan()
+#2 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-25 14:43:56 --> Undefined index: nama_desa
+#0 /var/www/html/spod/app/Views/temuan/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/View/View.php(214): include('/var/www/html/s...')
+#2 /var/www/html/spod/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/spod/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(51): view()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->data_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 15:30:56 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 15:30:56 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 15:31:01 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 15:31:01 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 15:31:02 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 15:31:02 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 15:31:07 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 15:31:07 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 15:33:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_temuan`)
+WHERE `id_desa` = '4'
+GROUP BY `temuan`.`tahun`' at line 4
+CRITICAL - 2023-01-25 15:33:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_temuan`)
+WHERE `id_desa` = '4'
+GROUP BY `temuan`.`tahun`' at line 4
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->data_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 20:45:56 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 20:45:56 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 21:02:42 --> Unknown column 'temuan.id' in 'field list'
+CRITICAL - 2023-01-25 21:02:42 --> Unknown column 'temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 21:03:08 --> Unknown column 'detail_temuan.id' in 'field list'
+CRITICAL - 2023-01-25 21:03:08 --> Unknown column 'detail_temuan.id' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 21:03:26 --> Unknown column 'tahun' in 'field list'
+CRITICAL - 2023-01-25 21:03:26 --> Unknown column 'tahun' in 'field list'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-25 21:03:39 --> Unknown column 'temuan.id_desa' in 'on clause'
+CRITICAL - 2023-01-25 21:03:39 --> Unknown column 'temuan.id_desa' in 'on clause'
+#0 /var/www/html/spod/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/spod/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/spod/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/spod/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/spod/app/Controllers/Temuan.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-25 21:04:09 --> Invalid file: temuan/detail_temuan.php
+#0 /var/www/html/spod/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/spod/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/spod/app/Controllers/Temuan.php(79): view()
+#3 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\Temuan->detail_temuan()
+#4 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

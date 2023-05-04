@@ -1,0 +1,11 @@
+CRITICAL - 2023-04-15 09:16:04 --> Undefined index: nomor_lhp
+#0 D:\laragon\www\spod\app\Views\temuan\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 47, Array)
+#1 D:\laragon\www\spod\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\spod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\spod\system\Common.php(1092): CodeIgniter\View\View->render('temuan/index', Array, true)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(59): view('temuan/index', Array)
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->data_temuan()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

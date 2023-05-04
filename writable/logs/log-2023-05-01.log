@@ -1,0 +1,78 @@
+ERROR - 2023-05-01 05:51:11 --> Table 'spod.bagian' doesn't exist
+CRITICAL - 2023-05-01 05:51:11 --> Table 'spod.bagian' doesn't exist
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\User.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\User->edit('4')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-01 05:52:06 --> Undefined variable: desa
+#0 D:\laragon\www\spod\app\Views\user\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 26, Array)
+#1 D:\laragon\www\spod\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\spod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\spod\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\laragon\www\spod\app\Controllers\User.php(55): view('user/edit', Array)
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\User->edit('4')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-05-01 06:02:56 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2023-05-01 06:02:56 --> Column 'id' in where clause is ambiguous
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\User.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\User->edit('4')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-01 06:03:14 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\spod\app\Views\user\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\spod\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\spod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\spod\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\laragon\www\spod\app\Controllers\User.php(60): view('user/edit', Array)
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\User->edit('4')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-01 06:08:37 --> Use of undefined constant user - assumed 'user' (this will throw an Error in a future version of PHP)
+#0 D:\laragon\www\spod\app\Views\user\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\laragon\\www\\...', 6, Array)
+#1 D:\laragon\www\spod\system\View\View.php(214): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\spod\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\spod\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\laragon\www\spod\app\Controllers\User.php(61): view('user/edit', Array)
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\User->edit('2')
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-01 06:21:51 --> Invalid file: desa/edit.php
+#0 D:\laragon\www\spod\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('desa/edit.php')
+#1 D:\laragon\www\spod\system\Common.php(1092): CodeIgniter\View\View->render('desa/edit', Array, true)
+#2 D:\laragon\www\spod\app\Controllers\Desa.php(47): view('desa/edit', Array)
+#3 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Desa->edit('10')
+#4 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#5 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-01 07:08:41 --> Column 'tahun' cannot be null
+CRITICAL - 2023-05-01 07:08:41 --> Column 'tahun' cannot be null
+#0 D:\laragon\www\spod\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `te...')
+#1 D:\laragon\www\spod\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 D:\laragon\www\spod\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 D:\laragon\www\spod\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 D:\laragon\www\spod\app\Controllers\Temuan.php(74): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\spod\system\CodeIgniter.php(802): App\Controllers\Temuan->tambah_tahun()
+#6 D:\laragon\www\spod\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Temuan))
+#7 D:\laragon\www\spod\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\spod\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

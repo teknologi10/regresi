@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-27 09:00:07 --> Undefined variable: desa
+#0 /var/www/html/spod/app/Views/user/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/View/View.php(214): include('/var/www/html/s...')
+#2 /var/www/html/spod/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/spod/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/spod/app/Controllers/User.php(14): view()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\User->index()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-27 09:03:32 --> Undefined index: nama_kecamatan
+#0 /var/www/html/spod/app/Views/user/index.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spod/system/View/View.php(214): include('/var/www/html/s...')
+#2 /var/www/html/spod/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/spod/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/spod/app/Controllers/User.php(14): view()
+#5 /var/www/html/spod/system/CodeIgniter.php(802): App\Controllers\User->index()
+#6 /var/www/html/spod/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spod/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spod/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
